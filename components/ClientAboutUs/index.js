@@ -7,7 +7,7 @@ import {
 
 import Mitralo from '../../public/assets/images/Mitra-Clr.svg';
 
-import Asics from '../../public/assets/images/Asics-Clr.svg';
+import Asics from '../../public/assets/images/Asics-clr.svg';
 import Bata from '../../public/assets/images/Bata-Clr.svg';
 import Bean from '../../public/assets/images/CoffeeBean-Clr.svg';
 import Kotak from '../../public/assets/images/Kotak-Clr.svg';
@@ -16,7 +16,7 @@ import Unicef from '../../public/assets/images/Unicef-Clr.svg';
 import Increff from '../../public/assets/images/Increff-Clr.svg';
 import easyRewardz from '../../public/assets/images/ER-Clr.svg';
 
-import Sobha from '../../public/assets/images/Sobha.webp';
+import Sobha from '../../public/assets/images/sobha.webp';
 import Primer from '../../public/assets/images/Primer.webp';
 import Merchant from '../../public/assets/images/Merchant.jpg';
 import Ruparel from '../../public/assets/images/Ruparel.jpg';
