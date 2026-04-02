@@ -19,8 +19,5 @@
     "react-responsive-carousel": "^3.2.23",
     "react-scroll-to-top": "^3.0.0",
     "styled-components": "^6.1.8"
-  },
-  "devDependencies": {
-    "@netlify/plugin-nextjs": "^5.15.9"
   }
 }
