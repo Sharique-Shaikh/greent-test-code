@@ -1,0 +1,22 @@
+<svg width="1441" height="599" viewBox="0 0 1441 599" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1272_2992)">
+<rect width="1440" height="598" transform="translate(1440.46 598.4) rotate(-180)" fill="#024738"/>
+<g opacity="0.5" filter="url(#filter0_f_1272_2992)">
+<path d="M738.684 555.141C738.145 567.335 713.918 580.573 700.61 589.681C670.724 610.135 636.08 628.872 599.443 646.869C548.157 672.062 493.919 699.881 427.722 717.691C404.519 723.934 368.891 730.271 339.488 726.772C307.634 722.982 367.007 666.001 372.276 660.686C433.518 598.905 523.382 539.825 543.587 470.212C543.801 469.473 546.767 463.946 540.489 464.725C510.185 468.489 477.115 488.832 457.874 497.824C304.398 569.552 167.046 647.33 28.1351 724.765C-4.35494 742.876 -37.1672 760.951 -73.2346 777.646C-80.1546 780.849 -124.657 805.054 -141.55 802.869C-143.841 802.573 -144.825 801.168 -145.556 800.148C-156.731 784.563 -139.745 771.343 -128.871 756.067C-20.8391 604.3 125.923 458.813 263.653 313.035C320.608 252.751 379.267 192.999 423.818 130.225C429.045 122.86 433.72 115.598 437.375 108.021C437.863 107.008 439.315 104.256 437.514 104.869C433.187 106.342 430.821 110.649 428.525 112.629C385.823 149.448 317.623 179.249 258.562 210.367C216.831 232.354 85.8953 272.116 43.1236 293.679" stroke="url(#paint0_linear_1272_2992)" stroke-width="53"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_1272_2992" x="-293.215" y="-39.2188" width="1175.88" height="986.221" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="58.75" result="effect1_foregroundBlur_1272_2992"/>
+</filter>
+<linearGradient id="paint0_linear_1272_2992" x1="397.368" y1="741.927" x2="320.043" y2="99.5693" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D2C130"/>
+<stop offset="1" stop-color="#8DF368"/>
+</linearGradient>
+<clipPath id="clip0_1272_2992">
+<rect width="1440" height="598" fill="white" transform="translate(1440.46 598.4) rotate(-180)"/>
+</clipPath>
+</defs>
+</svg>
