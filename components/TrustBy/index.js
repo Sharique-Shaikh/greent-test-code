@@ -18,7 +18,7 @@ import Logo from '../../public/assets/images/Logo.svg';
 import Clientele from '../../public/assets/images/Clientele.svg';
 import Mitralo from '../../public/assets/images/Mitra-Clr.svg';
 
-import Asics from '../../public/assets/images/Asics-Clr.svg';
+import Asics from '../../public/assets/images/Asics-clr.svg';
 import Bata from '../../public/assets/images/Bata-Clr.svg';
 import Bean from '../../public/assets/images/CoffeeBean-Clr.svg';
 import Kotak from '../../public/assets/images/Kotak-Clr.svg';
