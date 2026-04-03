@@ -30,6 +30,12 @@ import Primer from '../../public/assets/images/Primer.webp';
 import Merchant from '../../public/assets/images/Merchant.jpg';
 import Ruparel from '../../public/assets/images/Ruparel.jpg';
 import Hush from '../../public/assets/images/HushPuppy.png';
+import KKMart from '../../public/assets/images/KK-Supermart-Logo-Vector.svg-.png';
+import RedManShop from '../../public/assets/images/redmanshop+logo.webp';
+import SitiKhadijah from '../../public/assets/images/Siti-Khadijah.webp';
+import MRDiy from '../../public/assets/images/MR.DIY-logo.svg';
+import PandG from '../../public/assets/images/P&G_logo.png';
+
 
 import easyRewardz from '../../public/assets/images/ER-Clr.svg';
 
@@ -77,6 +83,11 @@ const brandImages = [
   { id: 10, imageSrc: Primer },
   { id: 11, imageSrc: Hush },
   { id: 12, imageSrc: Ruparel },
+  { id: 13, imageSrc: KKMart },
+  { id: 14, imageSrc: RedManShop },
+  { id: 15, imageSrc: SitiKhadijah },
+  { id: 16, imageSrc: MRDiy },
+  { id: 17, imageSrc: PandG },
 ];
 
 const getStyle = (index) => {
@@ -95,7 +106,7 @@ const getHushStyle = (id) => {
 export default function TrustBy() {
   return (
     <>
-      <Section>
+      <Section style={{paddingInline: '0px'}}>
         <Container>
           <SectionTitle>Clients who trust us</SectionTitle>
         </Container>

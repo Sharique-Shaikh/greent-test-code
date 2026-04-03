@@ -14,7 +14,8 @@ import Person1 from '../../public/assets/images/Arun.svg';
 import Person2 from '../../public/assets/images/Charu.svg';
 import Person3 from '../../public/assets/images/Brian.jpeg';
 
-import Person4 from '../../public/assets/images/Novri.jpg';
+// import Person4 from '../../public/assets/images/Novri.jpg';
+import Person4 from '../../public/assets/images/Avinash-Image-profile.jpg';
 import Person5 from '../../public/assets/images/Hoa.jpg';
 import Person6 from '../../public/assets/images/Tito.jpg';
 
@@ -181,7 +182,7 @@ Backed by strong expertise in segmentation, automation, and performance optimiza
               </p>
             </ProfileDescription>
 
-            <BottomContainer>
+            {/* <BottomContainer>
               <SocialMediaIconWrap>
                 <CountryWrap>
                   <Image src={indonesiaFlag} alt='flag' />
@@ -191,9 +192,9 @@ Backed by strong expertise in segmentation, automation, and performance optimiza
                   src={LinkedIn}
                   alt=''
                   onClick={() => handleRedirection(teamLinkedInUrls.Novri)}
-                /> */}
+                /> *}
               </SocialMediaIconWrap>
-            </BottomContainer>
+            </BottomContainer> */}
           </ProfileDetail>
         </CardWrapper>
 
