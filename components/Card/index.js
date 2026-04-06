@@ -15,7 +15,7 @@ import Person2 from '../../public/assets/images/Charu.svg';
 import Person3 from '../../public/assets/images/Brian.jpeg';
 
 // import Person4 from '../../public/assets/images/Novri.jpg';
-import Person4 from '../../public/assets/images/Avinash-Image-profile.jpg';
+import Person4 from '../../public/assets/images/Avinash-Image-profile-v2.jpg';
 import Person5 from '../../public/assets/images/Hoa.jpg';
 import Person6 from '../../public/assets/images/Tito.jpg';
 
