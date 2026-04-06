@@ -22,7 +22,7 @@ import leaderOne from '../../public/assets/images/leaderOne.svg';
 import leaderTwo from '../../public/assets/images/leaderTwo.svg';
 import leaderThree from '../../public/assets/images/Brian.jpeg';
 // import leaderFour from '../../public/assets/images/Novri.jpg';
-import leaderFour from '../../public/assets/images/Avinash-Image-profile.jpg';
+import leaderFour from '../../public/assets/images/Avinash-Image-profile-v2.jpg';
 import leaderFive from '../../public/assets/images/Hoa.jpg';
 import leaderSix from '../../public/assets/images/Tito.jpg';
 import flag from '../../public/assets/images/indianFlag.svg';
