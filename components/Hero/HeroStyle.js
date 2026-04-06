@@ -20,7 +20,7 @@ export const HeroContainer = styled.div`
     align-items: center;
     column-gap: 4rem;
     text-align: left;
-    height: 90vh;
+    height: auto;
 
     img {
       height: 90%;
@@ -32,12 +32,12 @@ export const HeroContainer = styled.div`
 
   @media (min-width: 1100px) and (max-width: 1400px) {
     padding: 10rem 0;
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   @media (min-height: 500px) and (max-height: 600px) {
     padding: 10rem 0;
-    height: 100vh;
+    /* height: 100vh; */
   }
 `;
 
