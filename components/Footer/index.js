@@ -70,7 +70,7 @@ export default function Footer() {
               </FooterContent>
             </FooterDiv>
 
-            <FooterDiv>
+            {/* <FooterDiv>
               <FooterContent>
                 <FooterContentHeader>India Office</FooterContentHeader>
 
@@ -93,7 +93,7 @@ export default function Footer() {
                   <FooterText> Email : arun@thegreentern.com</FooterText>
                 </FooterContact>
               </FooterContent>
-            </FooterDiv>
+            </FooterDiv> */}
 
             <FooterContent>
               <FooterLinks>
