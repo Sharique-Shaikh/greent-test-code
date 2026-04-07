@@ -26,7 +26,8 @@ import {
   FooterTitle,
   Wrapper,
 } from './FooterStyle';
-import Logo from '../../public/assets/images/FooterLogo.svg';
+// import Logo from '../../public/assets/images/FooterLogo.svg';
+import Logo from '../../public/assets/images/Greentern-Logo.png';
 import LinkedIn from '../../public/assets/images/Linkedin.svg';
 import Facebook from '../../public/assets/images/Facebook.svg';
 import Instagram from '../../public/assets/images/Instagram.svg';
