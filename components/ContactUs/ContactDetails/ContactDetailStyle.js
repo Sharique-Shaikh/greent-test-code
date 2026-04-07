@@ -39,16 +39,21 @@ export const ContactInfo = styled.div`
   margin-top: 1.8rem;
 `;
 export const ContactInfoFlex = styled.div`
-  display: flex;
+  /* display: flex; */
+  display: grid;
+    grid-template-columns: max-content auto;
   align-items: center;
   margin-top: 2.5rem;
   gap: 1.3rem;
+  text-align: left;
 
   a {
     /* margin-left: 1.3rem; */
     font-size: 1.6rem;
     cursor: pointer;
+    text-align: left;
   }
+ 
 `;
 
 // Form style

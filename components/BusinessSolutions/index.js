@@ -63,7 +63,7 @@ const locationData = [
     id: 3,
     location: 'India',
     flag: India,
-    address1: 'Bizzhub (Aspire), 1st floor Sony ',
+    address1: 'Bizzhub (Aspire), 2nd floor Sony ',
     address2: 'World Signal, 100 Feet Rd, ',
     address3: 'Koramangala, Bengaluru,',
     landMark: ' Karnataka - 560095',
