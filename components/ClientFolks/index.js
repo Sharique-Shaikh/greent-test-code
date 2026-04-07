@@ -70,9 +70,9 @@ export default function ClientFolks() {
       designation: 'Engagement Manager',
       description:
         '10+ Years of experience in CRM lifecycle marketing, loyalty program design, and campaign execution.Backed by strong expertise in segmentation, automation, and performance optimization.',
-      flagIcon: '',
-      countryName: '',
-      linkedInUrl: '#',
+      flagIcon: flag,
+      countryName: 'India',
+      linkedInUrl: 'http://www.linkedin.com/in/avinashtanwar12/',
     },
     {
       image: leaderFive,

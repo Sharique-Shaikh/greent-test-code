@@ -43,7 +43,7 @@ const teamLinkedInUrls = {
   Charu: 'https://www.linkedin.com/in/charuvagun-s-781b6325/',
   Arun: 'https://www.linkedin.com/in/arunkumar2020/',
   Tito: 'https://www.linkedin.com/in/tito-zenko-3913011b/',
-  Novri: ' https://www.linkedin.com/in/novriansyah-81080144/',
+  Avinash: ' http://www.linkedin.com/in/avinashtanwar12/',
   Brian: 'https://www.linkedin.com/in/brian-fernandez-62745b1b/',
   Hoa: 'https://www.linkedin.com/in/quynh-hoa-ngo-37796493',
 };
@@ -182,19 +182,19 @@ Backed by strong expertise in segmentation, automation, and performance optimiza
               </p>
             </ProfileDescription>
 
-            {/* <BottomContainer>
+            <BottomContainer>
               <SocialMediaIconWrap>
                 <CountryWrap>
-                  <Image src={indonesiaFlag} alt='flag' />
-                  <CountryName>{'Indonesia'}</CountryName>
+                  <Image src={Flag} alt='flag' />
+                  <CountryName>{'India'}</CountryName>
                 </CountryWrap>
-                {/* <Image
+                <Image
                   src={LinkedIn}
                   alt=''
-                  onClick={() => handleRedirection(teamLinkedInUrls.Novri)}
-                /> *}
+                  onClick={() => handleRedirection(teamLinkedInUrls.Avinash)}
+                />
               </SocialMediaIconWrap>
-            </BottomContainer> */}
+            </BottomContainer>
           </ProfileDetail>
         </CardWrapper>
 
