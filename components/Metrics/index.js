@@ -5,7 +5,7 @@ import {
   SectionDescription,
 } from '../common/CommonStyle';
 // import MetricsImg from '../../public/assets/images/Metrics.svg';
-import MetricsImg from '../../public/assets/images/Oue-Services-List-image.png';
+import MetricsImg from '../../public/assets/images/Our-Services.png';
 import Image from 'next/image';
 import { MetricsImgDiv } from './MetricStyle';
 

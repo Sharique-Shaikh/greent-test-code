@@ -36,9 +36,6 @@ export default function Statistics() {
         </SectionDescription>
 
         <StatisticsContainer>
-          <StatisticsArea>
-            <Image src={GTMap} alt='map' />
-          </StatisticsArea>
           <StatisticsContent>
             <StatisticsWrapper>
               <div>
@@ -80,6 +77,9 @@ export default function Statistics() {
               </StatisticsData>
             </StatisticsWrapper>
           </StatisticsContent>
+          <StatisticsArea>
+            <Image src={GTMap} alt='map' />
+          </StatisticsArea>
         </StatisticsContainer>
       </Container>
     </Section>

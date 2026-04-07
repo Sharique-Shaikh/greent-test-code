@@ -4,39 +4,38 @@ import { device } from '@/styles/theme';
 export const StatisticsContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
+  justify-content: center;
 
-  /* @media ${device.laptop} {
+  @media ${device.laptop} {
     flex-direction: row;
   }
 
   @media ${device.laptopL} {
     align-items: center;
-  } */
+  }
 `;
 
 export const StatisticsContent = styled.div`
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 2rem;
-
- @media ${device.laptop} {
-  gap:5rem;   
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+
+  @media ${device.laptop} {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
+    gap: 40px;
+    width: 30%;
   }
-  /*
+
   @media ${device.laptopL} {
     width: 20%;
-  } */
+  }
 `;
 
 export const StatisticsArea = styled.div`
   @media ${device.laptopL} {
-    width: 100%;
-    max-width: 900px;
-    margin-inline: auto;
+    width: 50%;
 
     img {
       width: 100%;
@@ -46,15 +45,14 @@ export const StatisticsArea = styled.div`
 
 export const StatisticsWrapper = styled.div`
   display: flex;
-  flex-direction: column;
   align-items: center;
-  /* height: 90px; */
-  text-align: center;
+  height: 90px;
 
-  img {
-    height: 100px;
+  @media ${device.laptop} {
+    img {
+      height: 100px;
+    }
   }
-  /* @media ${device.laptop} { } */
 `;
 
 export const StatisticsCount = styled.p`
@@ -63,7 +61,7 @@ export const StatisticsCount = styled.p`
   color: ${(props) => props.theme.BurntSienna};
 
   @media ${device.laptop} {
-    font-size: 4.2rem;
+    font-size: 4.8rem;
   }
 `;
 
@@ -71,6 +69,10 @@ export const StatisticsTitle = styled.p`
   font-weight: 400;
   font-size: 1.8rem;
   color: ${(props) => props.theme.MineShaft};
+  
+  @media ${device.laptop} {
+    font-size: 2.2rem;
+  }
 `;
 
 export const StatisticsData = styled.div`

@@ -36,10 +36,21 @@ import SitiKhadijah from '../../public/assets/images/Siti-Khadijah.webp';
 import MRDiy from '../../public/assets/images/MR.DIY-logo.svg';
 import PandG from '../../public/assets/images/P&G_logo.png';
 
-
 import easyRewardz from '../../public/assets/images/ER-Clr.svg';
-
 import Jollibee from '../../public/assets/images/Jollie-Clr.svg';
+
+import PhoonHuat from '../../public/assets/images/Phoon-Huat.png';
+import OnitsukaTiger from '../../public/assets/images/Onitsuka-Tiger.png';
+import MAP from '../../public/assets/images/MAP.png';
+import MarieClaire from '../../public/assets/images/Marie-Claire.png';
+import DominosPizza from '../../public/assets/images/Dominos-Pizza.png';
+import Matahari from '../../public/assets/images/Matahari.png';
+import LandmarkGroup from '../../public/assets/images/Landmark-Group.png';
+import AscensusHealth from '../../public/assets/images/Ascensus-Health.png';
+import TheGuardians from '../../public/assets/images/The-Guardians.png';
+import Realtors360 from '../../public/assets/images/360-Realtors.png';
+import FivePaisa from '../../public/assets/images/5Paisa.png';
+import Ceyone from '../../public/assets/images/Ceyone.png';
 
 const brandImages = [
   {
@@ -62,32 +73,98 @@ const brandImages = [
     id: 5,
     imageSrc: Jollibee,
   },
-
   {
     id: 6,
     imageSrc: Kotak,
   },
-
   {
     id: 7,
     imageSrc: Sobha,
   },
-
   {
     id: 8,
     imageSrc: Asics,
   },
-
-  { id: 9, imageSrc: Merchant },
-
-  { id: 10, imageSrc: Primer },
-  { id: 11, imageSrc: Hush },
-  { id: 12, imageSrc: Ruparel },
-  { id: 13, imageSrc: KKMart },
-  { id: 14, imageSrc: RedManShop },
-  { id: 15, imageSrc: SitiKhadijah },
-  { id: 16, imageSrc: MRDiy },
-  { id: 17, imageSrc: PandG },
+  {
+    id: 9,
+    imageSrc: Merchant,
+  },
+  {
+    id: 10,
+    imageSrc: Primer,
+  },
+  {
+    id: 11,
+    imageSrc: Hush,
+  },
+  {
+    id: 12,
+    imageSrc: Ruparel,
+  },
+  {
+    id: 13,
+    imageSrc: KKMart,
+  },
+  {
+    id: 14,
+    imageSrc: SitiKhadijah,
+  },
+  {
+    id: 15,
+    imageSrc: MRDiy,
+  },
+  {
+    id: 16,
+    imageSrc: PhoonHuat,
+  },
+  {
+    id: 17,
+    imageSrc: OnitsukaTiger,
+  },
+  {
+    id: 18,
+    imageSrc: MAP,
+  },
+  {
+    id: 19,
+    imageSrc: MarieClaire,
+  },
+  {
+    id: 20,
+    imageSrc: DominosPizza,
+  },
+  {
+    id: 21,
+    imageSrc: Matahari,
+  },
+  {
+    id: 22,
+    imageSrc: LandmarkGroup,
+  },
+  {
+    id: 23,
+    imageSrc: Nippon,
+  },
+  {
+    id: 24,
+    imageSrc: AscensusHealth,
+  },
+  {
+    id: 25,
+    imageSrc: TheGuardians,
+  },
+  {
+    id: 26,
+    imageSrc: Realtors360,
+  },
+  {
+    id: 27,
+    imageSrc: FivePaisa,
+  },
+  {
+    id: 28,
+    imageSrc: Ceyone,
+  },
 ];
 
 const getStyle = (index) => {
@@ -106,18 +183,19 @@ const getHushStyle = (id) => {
 export default function TrustBy() {
   return (
     <>
-      <Section style={{paddingInline: '0px'}}>
+      <Section  >
         <Container>
           <SectionTitle>Clients who trust us</SectionTitle>
-        </Container>
 
           {/* <SectionDescription>
             Here's a long list of customers who have worked with us
           </SectionDescription> */}
 
           <BrandWrapper>
-            <BrandContainer style={{animationDuration: brandImages.length * 2 + 20 + 's'}}>
-              {[...brandImages, ...brandImages].map((brand, index) => (
+            {/* <BrandContainer style={{animationDuration: brandImages.length * 2 + 20 + 's'}}> */}
+            <BrandContainer>
+              {/* {[...brandImages, ...brandImages].map((brand, index) => ( */}
+              {brandImages.map((brand, index) => (
                 <BrandImageWrapper>
                   {' '}
                   <BrandImage
@@ -138,6 +216,7 @@ export default function TrustBy() {
               ))}
             </BrandContainer>
           </BrandWrapper>
+                </Container>
       </Section>
     </>
   );
