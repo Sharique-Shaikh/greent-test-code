@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import Logo from '../../public/assets/images/FooterLogo.svg';
+// import Logo from '../../public/assets/images/FooterLogo.svg';
+import Logo from '../../public/assets/images/Greentern-Logo.png';
 
 export default function LoadingScreen({ children }) {
   const [loading, setLoading] = useState(true);
@@ -20,7 +21,7 @@ export default function LoadingScreen({ children }) {
         alignItems: "center",
         height: "100vh",
       }}>
-        <Image src={Logo} height={200} width={200} alt="logo" />
+        <Image src={Logo} height={200} width={200} alt="logo" style={{ objectFit: "contain" }} />
       </div>
     );
   }
