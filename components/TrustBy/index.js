@@ -51,6 +51,7 @@ import TheGuardians from '../../public/assets/images/The-Guardians.png';
 import Realtors360 from '../../public/assets/images/360-Realtors.png';
 import FivePaisa from '../../public/assets/images/5Paisa.png';
 import Ceyone from '../../public/assets/images/Ceyone.png';
+import GridLogo from '../../public/assets/images/GRID_R.png';
 
 const brandImages = [
   {
@@ -165,11 +166,15 @@ const brandImages = [
     id: 28,
     imageSrc: Ceyone,
   },
+  {    
+    id: 29,
+    imageSrc: GridLogo,
+  },
 ];
 
 const getStyle = (index) => {
   return {
-    height: index === 6 || index === 10 ? '85px' : '50px',
+    height: index === 6 || index === 10 ? '110px' : '90px',
   };
 };
 

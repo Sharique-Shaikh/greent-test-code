@@ -186,9 +186,10 @@ export default function BusinessSolutions() {
             return null;
           }}
         >
-          {locationData?.map((data) => {
+          {locationData?.map((data, index) => {
             return (
               <LocationCard
+              key={data.id || index}
                 country={data?.location}
                 address1={data?.address1}
                 address2={data?.address2}

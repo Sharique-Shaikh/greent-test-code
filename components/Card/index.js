@@ -78,6 +78,7 @@ export default function ProfileCard() {
                 Success
               </p>
             </ProfileDescription>
+          </ProfileDetail>
 
             <BottomContainer>
               <SocialMediaIconWrap>
@@ -92,7 +93,6 @@ export default function ProfileCard() {
                 />
               </SocialMediaIconWrap>
             </BottomContainer>
-          </ProfileDetail>
         </CardWrapper>
 
         <CardWrapper>
@@ -111,6 +111,7 @@ export default function ProfileCard() {
                 up processes across sales & project department across SEA.
               </p>
             </ProfileDescription>
+          </ProfileDetail>
 
             <BottomContainer>
               <SocialMediaIconWrap>
@@ -125,7 +126,6 @@ export default function ProfileCard() {
                 />
               </SocialMediaIconWrap>
             </BottomContainer>
-          </ProfileDetail>
         </CardWrapper>
 
         <CardWrapper>
@@ -146,6 +146,7 @@ export default function ProfileCard() {
                 brands. Has been in B2B SaaS sales for over 6 years across SEA.
               </p>
             </ProfileDescription>
+          </ProfileDetail>
 
             <BottomContainer>
               <SocialMediaIconWrap>
@@ -160,7 +161,6 @@ export default function ProfileCard() {
                 />
               </SocialMediaIconWrap>
             </BottomContainer>
-          </ProfileDetail>
         </CardWrapper>
 
         <CardWrapper>
@@ -181,6 +181,7 @@ export default function ProfileCard() {
 Backed by strong expertise in segmentation, automation, and performance optimization.
               </p>
             </ProfileDescription>
+          </ProfileDetail>
 
             <BottomContainer>
               <SocialMediaIconWrap>
@@ -195,7 +196,6 @@ Backed by strong expertise in segmentation, automation, and performance optimiza
                 />
               </SocialMediaIconWrap>
             </BottomContainer>
-          </ProfileDetail>
         </CardWrapper>
 
         <CardWrapper>
@@ -222,6 +222,7 @@ Backed by strong expertise in segmentation, automation, and performance optimiza
             <Image src={Twitter} alt='twitter' />
           </ProfileIcons> */}
 
+          </ProfileDetail>
             <BottomContainer>
               <SocialMediaIconWrap>
                 <CountryWrap>
@@ -235,7 +236,6 @@ Backed by strong expertise in segmentation, automation, and performance optimiza
                 />
               </SocialMediaIconWrap>
             </BottomContainer>
-          </ProfileDetail>
         </CardWrapper>
 
         <CardWrapper>
@@ -257,6 +257,7 @@ Backed by strong expertise in segmentation, automation, and performance optimiza
               </p>
             </ProfileDescription>
 
+          </ProfileDetail>
             <BottomContainer>
               <SocialMediaIconWrap>
                 <CountryWrap>
@@ -270,7 +271,6 @@ Backed by strong expertise in segmentation, automation, and performance optimiza
                 />
               </SocialMediaIconWrap>
             </BottomContainer>
-          </ProfileDetail>
         </CardWrapper>
       </ProfileWrapper>
       <SeeAllContainer onClick={() => router.push('/about-us')}>

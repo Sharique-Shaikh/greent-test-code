@@ -84,7 +84,7 @@ export const BrandImage = styled(Image)`
 
   @media${device.laptop} {
     width: 170px;
-    height: 50px;
+    height: 90px;
   }
 `;
 
