@@ -7,7 +7,7 @@ module.exports = {
   reactStrictMode: true,
 
   // Build setup for static export
-  output: 'export',
+  output: 'export', 
   images: {
     unoptimized: true,     // Static exports can't "process" images on the fly
   },

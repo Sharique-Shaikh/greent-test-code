@@ -27,12 +27,12 @@ export const Card = styled.div`
 
   @media ${device.laptop} {
     width: 350px;
-    height: 520px;
+    height: 560px;
   }
 
   @media ${device.tablet} {
     width: 350px;
-    height: 520px;
+    height: 560px;
   }
 `;
 

@@ -30,6 +30,9 @@ export const CardWrapper = styled.div`
   border-radius: 2.4rem;
   padding: 1rem;
   background-color: #fff;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
   img {
     overflow: hidden;
